@@ -252,4 +252,50 @@ h3 {
     color: var(--gray-3);
 }
 
-@media screen and (min-width: 960px) {}
+@media screen and (min-width: 960px) {
+    body {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .header__quote {
+        width: 65%;
+    }
+
+    .header__quotecontainer {
+        grid-template-columns: 1fr 26fr;
+    }
+
+    .maingrid {
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        grid-gap: 4rem;
+        margin-top: 1.5rem;
+    }
+
+    .mainblock {
+        grid-row-start: 1;
+        padding-right: 4rem;
+    }
+
+    .servings {
+        grid-gap: 0.3rem;
+    }
+
+    .data {
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        height: 12rem;
+        padding: 1rem;
+        padding-left: 20%;
+    }
+
+    .times {
+        display: block;
+    }
+
+    .time {
+        grid-gap: .5rem;
+        margin-bottom: 1rem;
+    }
+}
